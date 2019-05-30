@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/colorAccent" />
+            <gradient
+                android:centerColor="@android:color/holo_purple"
+                android:endColor="@android:color/holo_blue_bright"
+                android:startColor="@android:color/white" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_close_black_24dp" />
+</layer-list>
